@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teresas Weihnachtsgeschenk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Teresas Weihnachtsgeschenk</h1>
+    <p>Willkommen zur geheimen Weihnachtsüberraschung! Bitte gib das Passwort ein, um dein Geschenk zu sehen.</p>
+    
+    <input type="password" id="password" placeholder="Passwort eingeben">
+    <button onclick="checkPassword()">Bestätigen</button>
+    
+    <p id="result"></p>
+    
+    <div id="surprise" class="hidden">
+      <p>🎄 Frohe Weihnachten, Teresa! 🎁</p>
+      <img src="qrcode.png" alt="QR-Code" class="qrcode">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
